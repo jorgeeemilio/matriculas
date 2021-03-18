@@ -23,7 +23,7 @@ public class MisMatriculas
 		Pattern nuevas, antiguas;
 		Matcher m;
 		nuevas = Pattern.compile("[0-9]{4}[A-Z&&[^AEIOUÑ]]{3}");
-		antiguas = Pattern.compile("[A-Z&&[^Ñ]]{1,2}[0-9]{4,5}[A-Z&&[^Ñ]]{0,2}");
+		antiguas = Pattern.compile("[A-Z&&[^Ñ]]{1,2}[0-9]{4,6}[A-Z&&[^Ñ]]{0,2}");
 
 		// Leer fichero
 		try
